@@ -281,9 +281,9 @@ header {
 .hr1 {
   background-color: #ec5242;
   width: 44px;
-  margin-left: 203px;
-  margin-top: 24px;
-  margin-bottom: 36px;
+  margin-left: 176px;
+  margin-top: -42px;
+  margin-bottom: 47px;
   height: 4px;
   border-radius: 2px;
 }
@@ -293,6 +293,7 @@ header {
   font-size: 20px;
   font-family: 'inter', sans-serif;
   padding-top: 38px;
+  padding-bottom: 50px;
   overflow: hidden;
 }
 

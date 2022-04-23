@@ -9,8 +9,9 @@
 ## contributor
 
 ## resources
-Google
 
+## Acknowledement
+Theme origin design idea [cindy shin](https://www.behance.net/adagio07)
 
 ## Author
 👤 **Richard Friday**
