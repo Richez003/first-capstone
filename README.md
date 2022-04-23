@@ -36,7 +36,7 @@ Give a ⭐️ if you like this project!
 - etc
 
 ## live demo
- [live demove]{https://richez003.github.io/first-capstone/}
+ [live demo](https://richez003.github.io/first-capstone/)
 
 ## 📝 License
 
