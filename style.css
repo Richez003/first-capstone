@@ -129,15 +129,13 @@ header {
   align-items: center;
   text-align: center;
   justify-items: center;
-
-
 }
 
 .card-section {
   display: flex;
   flex-direction: column;
-justify-content: center;
-align-items: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .card-content {
@@ -257,11 +255,10 @@ align-items: center;
 }
 
 .join {
-  margin-top: 34px;
   background-color: #ec5242;
   width: 370px;
   height: 80px;
-  margin:auto;
+  margin: auto;
 }
 
 .join2 {
