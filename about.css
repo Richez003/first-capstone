@@ -609,7 +609,7 @@ header {
     color: #333;
     text-align: center;
     margin-top: 40px;
-    margin-left: -2%;
+    margin:auto;
   }
 
   .logo1 p {
