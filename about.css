@@ -94,10 +94,13 @@
 }
 
 .container {
-  text-align: start;
-  margin-top: 162px;
-  font-size: 92px;
-  margin-left: -383px;
+  text-align: center;
+  margin: auto;
+  line-height: 2;
+  font-size: 40px;
+  position: absolute;
+  margin-top: 5rem;
+  margin-left: 2rem;
 }
 
 .m2 {
@@ -114,19 +117,18 @@
 .abh2 {
   text-align: center;
   font-family: 'Lato', sans-serif;
-  margin-top: 20px;
   font-size: 24px;
-  margin-left: -19px;
+  margin: auto;
+  padding: 1rem;
   width: 400px;
 }
 
 .abp {
+  margin: auto;
   text-align: center;
   font-family: 'Lato', sans-serif;
-  margin-top: 10px;
-  margin-bottom: 50px;
-  margin-left: 12px;
   width: 350px;
+  padding: 2rem;
 }
 
 .logo1 p {
@@ -180,9 +182,10 @@
 
 .prg {
   color: #4e5053;
+  margin: auto;
+  text-align: center;
   font-size: 20px;
   font-family: 'Lato', sans-serif;
-  padding-left: 15px;
   line-height: 24px;
   padding-top: 12px;
   background-color: #fff;
@@ -246,10 +249,11 @@ header {
 }
 
 .da {
-  margin-left: 134px;
   font-family: 'Lato', sans-serif;
-  font-size: 24px;
+  font-size: 30px;
   font-weight: 800;
+  margin: auto;
+  text-align: center;
 }
 
 .intro {
@@ -287,9 +291,11 @@ header {
 }
 
 .footer h2 {
-  padding-left: 132px;
   font-size: 32px;
+  margin: auto;
+  text-align: center;
   color: #fff;
+  padding: 1rem;
 }
 
 .ff1 {
@@ -298,8 +304,9 @@ header {
 
 .footer-img {
   width: 100px;
-  margin-top: 50px;
-  margin-left: 20px;
+  margin: auto;
+  margin-left: 2rem;
+
 }
 
 .grid {
@@ -318,9 +325,18 @@ header {
 .hr-f {
   width: 64px;
   background: rgb(247, 7, 7);
-  margin-left: 150px;
-  margin-top: 6px;
-  margin-bottom: 36px;
+  margin: auto;
+  align-items: center;
+  top: 0;
+  margin-bottom: 5rem;
+}
+
+.hr-mid{
+  width: 64px;
+  background: rgb(247, 7, 7);
+  margin: auto;
+  align-items: center;
+  top: 0;
 }
 
 .f-img {
@@ -403,9 +419,8 @@ header {
     gap: 1.5em;
     background-color: #444;
     width: 100%;
-    padding-right: 162px;
     color: #fff;
-    padding-top: 4px;
+    margin-right: 9rem;
   }
 
   .link {
@@ -423,7 +438,7 @@ header {
     font-family: 'lato', sans-serif;
     padding-right: 162px;
     font-weight: bold;
-    font-size: 13px;
+    font-size: 16px;
   }
 
   .logo {
@@ -478,9 +493,7 @@ header {
     text-align: center;
     font-family: 'Lato', sans-serif;
     font-size: 27px;
-    margin-bottom: 20px;
-    width: 583px;
-    margin-left: 30%;
+    width: 100%;
   }
 
   .moment {
@@ -488,8 +501,9 @@ header {
     height: 129px;
     border: 3px solid #fff;
     border-radius: 1px;
-    margin-left: 27%;
-    margin-top: 40px;
+    justify-content: center;
+    margin: auto;
+    margin-top: 5rem;
   }
 
   .prg {
@@ -528,23 +542,22 @@ header {
   }
 
   .contact {
-    margin-left: 22%;
-    margin-top: 10px;
+    margin: auto;
     margin-top: 40px;
+    justify-content: center;
   }
 
   .contact p {
     font-size: 18px;
-    margin-bottom: 20px;
-    width: 500px;
-    margin-left: 42%;
+    margin: auto;
+    text-align: center;
   }
 
   .contact a {
-    margin-left: 87%;
     font-size: 18px;
     margin-top: 20px;
-    margin-right: 500px;
+    text-align: center;
+    margin: auto;
   }
 
   .menu-nav {
@@ -579,27 +592,28 @@ header {
   .di {
     display: flex;
     justify-content: center;
+    margin: auto;
+    margin-right: 5rem;
   }
 
   .abh2 {
     text-align: center;
-    margin-top: 30px;
     font-size: 24px;
-    margin-left: 25%;
-    width: 700px;
+    width: 100%;
   }
 
   .bckg1 {
     width: 100%;
     position: absolute;
+    margin: auto;
+    justify-content: center;
+    margin-right: 10rem;
   }
 
   .abp {
-    align-items: center;
+    margin: auto;
     text-align: center;
-    margin-top: 20px;
-    margin-bottom: 60px;
-    margin-left: 38%;
+    
   }
 
   .logo1 {
@@ -613,10 +627,9 @@ header {
 
   .logo1 p {
     width: 500px;
-    align-items: center;
-    justify-content: center;
-    margin-left: 35%;
-    margin-top: 20px;
+    text-align: center;
+    margin: auto;
+    width: 100%;
   }
 
   .logi-p:hover {
@@ -635,7 +648,9 @@ header {
   .logo-ab {
     border: 3px solid rgb(214, 214, 218);
     border-radius: 10px;
-    margin-left: -2%;
+    justify-content: center;
+    margin: auto;
+    margin-right:5rem ;
   }
 
   .logo-ab:hover {
@@ -661,12 +676,7 @@ header {
   }
 
   .hr-f {
-    background-color: #ec5242;
-    width: 44px;
-    margin-left: 49%;
-    margin-bottom: 37px;
-    height: 4px;
-    border-radius: 2px;
+    display: none;
   }
 
   .ff {
@@ -675,12 +685,7 @@ header {
 
   .ff1 {
     display: flex;
-    margin-left: 500px;
-    margin-top: 30px;
-  }
-
-  .footer {
-    height: 200px;
+    text-align: center;
   }
 
   .card {
@@ -723,25 +728,38 @@ header {
   }
 
   .text {
-    margin-left: 52px;
-    margin-top: -164px;
-    position: relative;
+    text-align: center;
     font-size: 18px;
     color: rgb(255, 255, 255);
     font-family: Poppins, sans-serif;
   }
 
   .da {
-    margin-left: 110px;
+    text-align: center;
     font-family: 'Lato', sans-serif;
     font-size: 24px;
   }
 
-  .f-p {
+  .f-p1 {
     color: #fff;
+    margin-top: 2rem;
   }
 
   .f-img1 {
-    width: 100px;
+    width: 80px;
+    margin-left: 45rem;
+    justify-content: space-around;
+  }
+
+  .hr-mid {
+    width: 64px;
+    color: red;
+    height: 5px;
+    margin: auto;
+  }
+
+  .abtp {
+    margin: auto;
+    justify-content: center;
   }
 }
